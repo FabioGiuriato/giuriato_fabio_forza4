@@ -1,0 +1,96 @@
+#contenitore {
+    display: grid;
+    margin-top: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+#contenitore div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    height: 60px;
+    width: 60%;
+    font-size: 20px;
+    border-radius: 100%;
+    background-color: #f0f0f0;
+    margin-right: auto;
+    margin-left: auto;
+    text-indent: -9999px;
+}
+
+body{
+    background-color: rgb(207, 220, 118);
+}
+#titolo{
+    text-align: center;
+    color: rgb(33, 33, 99);
+    font-weight: bolder;
+    font-size: 330%;
+    margin-top: 3%;
+    background-color: #f0f0f0;
+    border: solid 5px black;
+    border-radius: 30px;
+    font-family: cursive;
+    display: inline-block;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#casa{
+    display: inline-block;
+}
+#box{
+    display: flex;
+}
+#stopwatch{
+    margin-top: 24%;
+    background-color: aliceblue;
+    margin-bottom: auto;
+    padding: 1%;
+    margin-right: 10%;
+    border: solid 3px black;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    color: rgb(33, 33, 99);
+
+}
+#gioc{
+    background-color: white;
+    margin-bottom: auto;
+    width: 200px;
+    padding: 10px;
+    border: solid 3px black;
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(33, 33, 99);
+
+}
+#abuso{
+    display: inline-block;
+    margin-top: 12%;
+    margin-bottom: auto;
+    margin-right: 10%;
+}
+#home{
+    background-image: url('images.png'); /* Sostituisci con il percorso della tua immagine */
+    background-size: cover; /* Adatta l'immagine alle dimensioni del bottone */
+    background-position: center; /* Centra l'immagine */
+    border: solid black 2px; /* Rimuove il bordo predefinito */
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+}

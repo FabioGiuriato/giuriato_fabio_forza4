@@ -1,0 +1,38 @@
+body {
+    background-image: url('1.png'); /* Sostituisci con il percorso dell'immagine */
+    background-size:cover; /* Adatta l'immagine per coprire l'intera pagina */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+    background-position: center 1% /* Centra l'immagine */
+}
+.button{
+    font-size: 140%;
+    margin-left: 84%;
+    border: none; 
+    color: white; 
+    text-align: center;
+    cursor: pointer;  
+    border-radius: 15px; 
+    transition: background-color 0.3s ease; 
+    width: 10%;
+    padding-top: 1%;
+
+    padding-bottom: 1%;
+    /* Effetto hover: il pulsante si ingrandisce */
+        
+}
+.button:hover {
+    transform: scale(1.1); /* Ingrandisce il pulsante del 20% */
+}
+#inf{
+    margin-top: 15%;
+    margin-bottom: 3%;
+    background-color: rgb(255, 41, 41);
+    
+}
+#vo{
+    margin-bottom: 3%; 
+    background-color: rgb(41, 41, 255);
+}
+#play{
+    background-color: rgb(255, 255, 41);
+}
